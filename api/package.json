@@ -1,0 +1,32 @@
+{
+  "name": "sick-fits-backend",
+  "version": "1.0.0",
+  "description": "the backend of sick fits",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon -e js,graphql -x node src/index.js",
+    "dev": "nodemon -e js,graphql -x node --inspect src/index.js",
+    "test": "jest",
+    "deploy": "prisma deploy"
+  },
+  "author": "braveforest92@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.1.0",
+    "graphql-shield": "^4.1.0",
+    "graphql-yoga": "^1.16.7",
+    "jsonwebtoken": "^8.4.0",
+    "nodemailer": "^4.7.0",
+    "prisma-binding": "^2.2.8",
+    "prisma-client-lib": "^1.21.1",
+    "stripe": "^6.17.0"
+  },
+  "devDependencies": {
+    "graphql-cli": "^2.17.0",
+    "nodemon": "^1.18.7",
+    "npm-run-all": "^4.1.5",
+    "prisma": "^1.21.1"
+  }
+}
