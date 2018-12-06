@@ -1,6 +1,6 @@
 # Advanced react
 
-An [advanced react course](https://advancedreact.com/) from Wes Bos.
+An [advanced react course](https://advancedreact.com/) from Wes Bos.  
 Some code restructure based on latest tech update :
 * Change all react class components to functional components
 * Implement react hooks to replace react class setState function
@@ -21,6 +21,7 @@ Some code restructure based on latest tech update :
 $ cd api
 $ cp .env.example .env
 $ npm i
+$ docker-compose up -d
 $ prisma deploy
 $ npm start
 ```
@@ -34,5 +35,5 @@ $ nom run dev
 ```
 
 ## URL
-API : http://localhost:5555/
+API : http://localhost:5555/  
 WEB : http://localhost:7777/
