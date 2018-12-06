@@ -17,7 +17,6 @@ Some code restructure based on latest tech update :
 *  Backend
 
 ```
-#
 $ cd api
 $ cp .env.example .env
 $ npm i
@@ -28,7 +27,6 @@ $ npm start
 
 *  Frontend
 ```
-#
 $ cd web
 $ npm i
 $ nom run dev
